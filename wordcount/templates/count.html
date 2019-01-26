@@ -1,0 +1,12 @@
+<h1>there are {{count}} words in the text area</h1>
+
+
+<h2>{{fulltext}}</h2>
+<h1>word count is </h1>
+
+<a href= "{% url 'about' %}"">About</a>
+{% for word, totalcount in sortedwords %}
+{{wordlist}}
+
+
+{% endfor %}
